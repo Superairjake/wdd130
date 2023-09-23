@@ -1,17 +1,17 @@
 nav  {
-    background-color: #A5D0A8;
+    background-color: #0d200f;
     padding: 10px;
 }
 nav a  {
-    color: white;
+    color: rgb(120, 106, 106);
     display: block;
     padding: 20px;
 }
 h1  {
-    color:#8CADA7;
+    color:#132925;
 }
 img  {
-    width: 150px;
+    max-width: 150px;
     height:auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -29,7 +29,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2) ; /* 1 */
     padding: 1rem;
-    background-color: #A5D0A8;
-    color: #8CADA7;
+    background-color: #133215;
+    color: #112320;
     text-align: center;
 }
