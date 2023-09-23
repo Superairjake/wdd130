@@ -1,5 +1,5 @@
 nav  {
-    background-color: #00ff1a;
+    background-color: #000000;
     padding: 10px;
 }
 nav a  {
@@ -11,7 +11,7 @@ h1  {
     color:#00ffd0;
 }
 img  {
-    max-width: 150px;
+    width: 150px;
     height:auto;
     border: 1px solid rgb(0, 0, 0);
     padding: 2px;
