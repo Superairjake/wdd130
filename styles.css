@@ -5,23 +5,23 @@
 }
 
 nav  {
-    background-color: #000000;
+    background-color: #ab7e7e;
     padding: 10px;
 }
 nav a  {
-    color: rgb(255, 0, 0);
+    color: rgb(94, 27, 27);
     display: block;
     padding: 20px;
 }
 h1  {
-    color:#00ffd0;
+    color:#6aada0;
 }
 main img  {
     width: 150px;
     height:auto;
     border: 1px solid rgb(0, 0, 0);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(127, 127, 127);
+    box-shadow: 0 0 30px rgb(123, 65, 65);
     float: right;
 }
 p  {
@@ -39,7 +39,7 @@ footer  {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.2) ; /* 1 */
+    border: 1px solid rgb(125, 21, 21) ; /* 1 */
     padding: 1rem;
     background-color: #ffffff;
     color: #ffffff;
