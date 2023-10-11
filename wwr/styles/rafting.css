@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/specimen/Bebas+Neue');
+
+:root {
+    --primary-color: #0077B6; 
+    --secondary-color: #F9A825; 
+    --text-color: #333; 
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif; 
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+        display: block;
+        width: 100%;
+        height:auto
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article img {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
+    border: 3px solid var(--secondary-color);
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 15px;
+    text-decoration: none; 
+}
