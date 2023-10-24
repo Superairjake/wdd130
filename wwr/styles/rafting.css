@@ -1,13 +1,13 @@
-@import url('https://fonts.google.com/specimen/Bebas+Neue');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --primary-color: #0077B6; 
-    --secondary-color: #F9A825; 
-    --text-color: #333; 
+    --primary-color: #0077B6;
+    --secondary-color: #F9A825;
+    --text-color: #333;
 }
 
 body {
-    font-family: 'Bebas Neue', sans-serif; 
+    font-family: 'Bebas Neue', sans-serif;
     background-color: var(--primary-color);
     color: var(--text-color);
     margin: 0;
@@ -32,15 +32,18 @@ main {
     padding: 20px;
 }
 
-.hero {
-    position: relative;
+.employee {
+    display: inline-block;
     text-align: center;
+    margin: 0 20px;
+    width: 20px;
+    height: auto;
 }
 
-.hero img {
-        display: block;
-        width: 100%;
-        height:auto
+.employee img {
+    display: block;
+    width: 200px;
+    height: auto;
 }
 
 h1 {
@@ -99,5 +102,4 @@ nav a {
     text-decoration: none;
     color: var(--text-color);
     margin: 0 15px;
-    text-decoration: none; 
 }
