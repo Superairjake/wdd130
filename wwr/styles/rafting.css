@@ -127,6 +127,8 @@ p {
     font-size: 1.2rem;
 }
 
+
+
 footer {
     background-color: var(--secondary-color);
     text-align: center;
@@ -142,4 +144,12 @@ nav a {
     text-decoration: none;
     color: var(--text-color);
     margin: 0 15px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-item {
+    flex-basis: 1%;
 }
