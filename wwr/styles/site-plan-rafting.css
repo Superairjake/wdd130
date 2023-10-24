@@ -1,45 +1,41 @@
-@import url(https://fonts.google.com/specimen/Mooli/about);
-@import url(https://fonts.google.com/specimen/Nunito);
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
-    
-    --primary-color: #9699B4; 
-    --secondary-color: #BCBDD0; 
-    --accent-color: #E4E5E9; 
-    --additional-accent-color: #7476A1; 
-
-   
-    --heading-font: 'Mooli', sans-serif; 
-    --paragraph-font: Nunito, sans-serif; 
-
-    
-    --nav-bg-color: #4D5972; 
-    --nav-link-color: #BCBDD0; 
-    --nav-link-hover-color: #E4E5E9; 
-    --nav-link-hover-bg-color: #7476A1; 
+    --primary-color: #9699B4;
+    --secondary-color: #BCBDD0;
+    --accent-color: #E4E5E9;
+    --additional-accent-color: #7476A1;
+    --heading-font: 'Mooli', sans-serif;
+    --paragraph-font: 'Nunito', sans-serif;
+    --nav-bg-color: #4D5972;
+    --nav-link-color: #BCBDD0;
+    --nav-link-hover-color: #E4E5E9;
+    --nav-link-hover-bg-color: #7476A1;
 }
+
 body {
-    font-family: var(--paragraph-font); 
-    max-width: 960px; 
-    padding: 20px; 
-}
-
-h1, h2, h3, h4, h5, h6  {
-    font-family: var(--heading-font);
-    color: var(--primary-color)
-
-}
-
-Header {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
     padding: 20px;
-    background-color: var(--secondary-color)
 }
 
-p  {
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
     padding: 25px;
 }
 
-nav  {
+nav {
     background-color: var(--additional-accent-color);
     font-size: 1.2rem;
     display: flex;
@@ -56,7 +52,7 @@ nav a:link, nav a:visited {
     color: var(--nav-bg-color);
 }
 
-nav a:hover  {
+nav a:hover {
     color: var(--nav-link-hover-color);
     background-color: var(--nav-link-hover-bg-color);
 }
